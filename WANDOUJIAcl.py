@@ -13,7 +13,7 @@ with open('wandoujiat.csv','w',newline='',encoding='utf-8-sig') as f: #open函�
         sleep = np.random.randint(3,6)  #导入时间包为爬虫增设延时爬取机制
         time.sleep(sleep)
         url = 'https://www.wandoujia.com/wdjweb/api/category/more?catId=5023&subCatId=0&ctoken=XovPYgIBgAYbi9_vB6maavKg&page=' + str(i) #所需爬取的网站链接
-	#此处添加3个headers伪装成浏览器获取信息
+	#此处添加headers伪装成浏览器获取信息
         headers=[{'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36'}, {'User-Agent':'Mozilla/5.0 (Linux; U; Android 4.0.3; de-ch; HTC Sensation Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30'},{'User-Agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36 OPR/38.0.2220.41'}]
 		#此处构建IP池为爬虫脚本增设代理避免IP被封，IP池中的IP可从网上搜免费代理IP或导入开源IP池
         proxies=[{ "http":"117.191.11.106:80"},
