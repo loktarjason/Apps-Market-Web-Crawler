@@ -4,9 +4,9 @@ Created on Wed May  8 17:19:38 2019
 @author: loktarjason
 """
 import requests as rqs #导入requests包
-import time,csv,random,re
 import numpy as np
 from lxml import etree #wandoujia用lxml爬取较为方便
+import time,csv,random,re
 with open('wandoujiat.csv','w',newline='',encoding='utf-8-sig') as f: #open函数记得加上encoding='utf-8'
     writer = csv.writer(f)
     for i in range(2,200): #网页循环爬取不包含最后一页
