@@ -1,6 +1,6 @@
-# Apps-Market-Web-Crawler
+# App-Market-Web-Crawler
 
-Apps Markets including `XIAOMI`, `HUAWEI`, `YINGYONGBAO`, `WANDOUJIA`
+App Markets including `XIAOMI`, `HUAWEI`, `YINGYONGBAO`, `WANDOUJIA`
 
 
 This this my first time to write a web crawler code based on python3.6, it might not very efficient,<br> 
